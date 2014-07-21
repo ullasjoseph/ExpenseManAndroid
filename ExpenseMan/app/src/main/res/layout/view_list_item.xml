@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_margin="10dp"
+    android:layout_height="120dp">
+<LinearLayout
+    android:layout_width="80dp"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    android:background="@drawable/circle_shape"
+    android:layout_alignParentRight="true">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="100 $"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:textSize="10pt"
+        android:id="@+id/textViewAmount"
+        android:layout_marginBottom="5dp"
+        android:layout_gravity="center_horizontal" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        android:background="@android:color/transparent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Category :"
+            android:textColor="@color/app_theme_color"
+            android:id="@+id/textViewCategory"
+            android:layout_marginBottom="5dp"
+            android:layout_gravity="center_horizontal" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Payee :"
+            android:textColor="@color/app_theme_color"
+            android:id="@+id/textViewPayee"
+            android:layout_marginBottom="5dp"
+            android:layout_gravity="center_horizontal" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Time :"
+            android:textColor="@color/app_theme_color"
+            android:id="@+id/textViewDate"
+            android:layout_marginBottom="5dp"
+            android:layout_gravity="center_horizontal" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Notes :"
+            android:textColor="@color/app_theme_color"
+            android:id="@+id/textViewNotes"
+            android:layout_gravity="center_horizontal" />
+    </LinearLayout>
+</RelativeLayout>
